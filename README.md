@@ -3,6 +3,8 @@ WalkMyAndroid
 
 Tracks location using the Location API.
 
+Content: http://codelabs.developers.google.com/codelabs/advanced-android-training-device-location
+
 Forked from
 http://github.com/google-developer-training/android-advanced-starter-apps/tree/master/WalkMyAndroid-Starter,
 commit
