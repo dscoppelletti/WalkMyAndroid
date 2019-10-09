@@ -4,6 +4,12 @@ WalkMyAndroid - Starter Code
 Starter code for the Walk My Android app which tracks location using the
 Location API.
 
+Forked from
+http://github.com/google-developer-training/android-advanced-starter-apps/tree/master/WalkMyAndroid-Starter,
+commit
+[19f697c](http://github.com/google-developer-training/android-advanced-starter-apps/commit/19f697c13d091a806c02d5919ff40dcd48c26a16)
+on 9 Nov 2018
+
 Introduction
 ------------
 The starter code includes two layout files, one for landscape and one for
