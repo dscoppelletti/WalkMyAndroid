@@ -15,9 +15,28 @@
 -->
 <resources>
     <string name="app_name">Walk My Android</string>
+    <!-- TODO STEP 4.1.3
     <string name="get_location">Get Location</string>
+    -->
+    <string name="start_tracking_location">Start Tracking Location</string>
+    <!-- TODO END STEP 4.1.3 -->
     <string name="android_image">Android Image</string>
-    <string name="textview_hint">Press the button to get the last known
-        location
-    </string>
+    <!-- TODO STEP 4.1.4
+    <string name="textview_hint">Press the button to get the last known location</string>
+    -->
+    <string name="textview_hint">Press the button to start tracking your location</string>
+    <!-- TODO END STEP 4.1.4 -->
+    <string name="location_permission_denied">Location permission denied</string>
+    <string name="no_location">No location</string>
+    <string name="service_not_available">Service not available</string>
+    <string name="invalid_lat_long_used">Invalid coordinates were supplied to the Geocoder</string>
+    <string name="no_address_found">No address found</string>
+    <string name="loading">Loading</string>
+    <string name="stop_tracking_location">Stop Tracking Location</string>
+    <!-- TODO STEP 2.3.1 -->
+    <string name="location_text">"Latitude: %1$.4f \n Longitude: %2$.4f\n Timestamp: %3$tr"</string>
+    <!-- TODO END STEP 2.3.1 -->
+    <!-- TODO STEP 3.3.1 -->
+    <string name="address_text">"Address: %1$s \n Timestamp: %2$tr"</string>
+    <!-- TODO END STEP 3.3.1 -->
 </resources>

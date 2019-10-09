@@ -1,15 +1,13 @@
-WalkMyAndroid - Starter Code
-============
+WalkMyAndroid 
+=============
 
-Starter code for the Walk My Android app which tracks location using the
-Location API.
+Tracks location using the Location API.
 
-Introduction
-------------
-The starter code includes two layout files, one for landscape and one for
-portrait mode, some images, and a predefined animation that will be used to
-build up the final version.
-
+Forked from
+http://github.com/google-developer-training/android-advanced-starter-apps/tree/master/WalkMyAndroid-Starter,
+commit
+[19f697c](http://github.com/google-developer-training/android-advanced-starter-apps/commit/19f697c13d091a806c02d5919ff40dcd48c26a16)
+on 9 Nov 2018
 
 Pre-requisites
 --------------
@@ -21,13 +19,41 @@ You should be familiar with:
 - How to use an AsyncTask to do background work.
 - Requesting permissions at runtime.
 
-
 Getting Started
 ---------------
 
 1. Download the code.
 2. Open the code in Android Studio.
 3. Run the app.
+
+Lab path
+--------
+
+### 3. Task 1. Set up location services
+
+1. [build.gradle (app)](http://github.com/dscoppelletti/WalkMyAndroid/blob/attend/app/build.gradle)
+
+### 4. Task 2. Get the last known location
+
+1. [AndroidManifest.xml](http://github.com/dscoppelletti/WalkMyAndroid/blob/attend/app/src/main/AndroidManifest.xml)
+1. [MainActivity.java](http://github.com/dscoppelletti/WalkMyAndroid/blob/attend/app/src/main/java/com/example/android/walkmyandroid/MainActivity.java)
+1. [strings.xml](http://github.com/dscoppelletti/WalkMyAndroid/blob/attend/app/src/main/res/values/strings.xml)
+
+### 5. Task 3. Get the location as an address
+
+1. [FetchAddressTask.java](http://github.com/dscoppelletti/WalkMyAndroid/blob/attend/app/src/main/java/com/example/android/walkmyandroid/FetchAddressTask.java)
+1. [strings.xml](http://github.com/dscoppelletti/WalkMyAndroid/blob/attend/app/src/main/res/values/strings.xml)
+1. [MainActivity.java](http://github.com/dscoppelletti/WalkMyAndroid/blob/attend/app/src/main/java/com/example/android/walkmyandroid/MainActivity.java)
+
+### 6. Task 4. Receive location updates
+
+1. [MainActivity.java](http://github.com/dscoppelletti/WalkMyAndroid/blob/attend/app/src/main/java/com/example/android/walkmyandroid/MainActivity.java)
+1. [strings.xml](http://github.com/dscoppelletti/WalkMyAndroid/blob/attend/app/src/main/res/values/strings.xml)
+
+References
+----------
+
+* [Location and context overview](http://developer.android.com/training/location)
 
 License
 -------

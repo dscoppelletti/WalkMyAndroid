@@ -14,10 +14,24 @@
   limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.walkmyandroid">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.android.walkmyandroid"
+    tools:ignore="GoogleAppIndexingWarning">
+    <!-- DOC STEP 2.1
+    Using the Location API requires permission from the user. Android offers two
+    location permissions:
 
-    <application
-        android:allowBackup="true"
+    . ACCESS_COARSE_LOCATION
+    . ACCESS_FINE_LOCATION
+
+    The permission you choose determines the accuracy of the location returned
+    by the API. For this lesson, use the ACCESS_FINE_LOCATION permission,
+    because you want the most accurate location information possible.
+    DOC STEP 2.1 -->
+    <!-- TODO STEP 2.1 - Set location permission in the manifest -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- TODO END STEP 2.1 -->
+    <application android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -26,11 +40,8 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
-
 </manifest>
